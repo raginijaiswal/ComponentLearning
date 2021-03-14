@@ -4,95 +4,78 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Component libraby</title>
-    <!-- <style>
-        body{
-            color: darkcyan;
-        }
-    </style> -->
-    <link href="style.css" rel="stylesheet"/>
+    <title>Home|Ragini Jaiswal</title>
+    <link href="styles.css" rel="stylesheet"/>
 </head>
 <body>
-    <div>
-    <h1>Welcome!</h1>
-    <p>I want to make a library which make all the projects good and consistent.
-        <hr>
-    <h2>@typography</h2>
-    <h1>H1 Tag - Biggest heading</h1>
-    <h2>H2 Tag - 2nd biggest heading</h2>
-    <p>p tag -  Normal text</p>
-    <small>small tag - Relatively smaller text</small>
-    <hr>
-    <h2>@Containers</h2>
-    <div>For containers you can use div. 
-        <h3>Two kind of containers are there:-</h3> 
-        <div>1. Fluid Container- it will go till end of the page</div>
-        <div>2. Contered container- it will go till specified width</div>
-    </div>
-    <hr>
-    <h2>@link</h2>
-    <h3>"a" tag "href" attribute to define link</h3>
-    <a href="https://www.google.com/">google</a>
-    <hr>
-    <h2>@lists</h2>
-    <h3>Unordered list</h3>
-    <ul>
-        <li>Item one</li>
-        <li>Item two</li>
-        <li>item three</li>
-    </ul>
-    <h2>Unordered inline list</h2>
-    <ul>
-        <li>inline Item one</li>
-        <li>inline Item two</li>
-        <li>inline item three</li>
-    </ul>
-    <h3>Reverse ordered list</h3>
-    <ol>
-        <li>Ordered Item one</li>
-        <li>Ordered Item two</li>
-        <li>Ordered item three</li>
-    </ol>
-    <hr>
-    <h3>@nav</h3>
-    <div>iAmBrand</div>
-    <ul>
-        <li>
-            <a href="/">home</a>
-        </li>
-        <li>
-            <a href="/">Product</a>
-        </li>
-        <li>
-            <a href="/">about</a>
-        </li>
-    </ul>
-    <hr>
-    <header>
-        <img src="images/hero.svg"/>
-        <br>
-        <h1>heading isside hero</h1>
+    <nav class="navigation container">
+        <div><strong>iAmRagini</strong></div>
+        <ul class="list nav-allign">
+            <li class="list-inline">
+                <a class="link link-Active" href="/">Home</a>
+            </li>
+            <li class="list-inline">
+                <a class="link" href="Project.html">Project</a>
+            </li>
+            <li class="list-inline">
+                <a class="link" href="Blogs.html">Blogs</a>
+            </li>
+        </ul>
+    </nav>
+    <header class="hero">
+        <img class="hero-img" src="images/hero.svg"/>
+        <h1 class="hero-heading">Ragini  jaiswal <small class="precisely">the web developer</small></h1>    
     </header>
-    <hr>
-    <h2>@section</h2>
-    <section>
-        <h3>White section</h3>
-        <p>This will have white background</p>
-
+    <section class="section greenishggrey ">
+        <h1>Technology</h1>
+        <div class="container-center secImage ">
+        <img class="secImage image" src="images/technology.svg"/>   
+        <li class="list">
+            
+            <p> ReatJs, AngularJS, Html5, css</p>
+            <p>Java, C, C++</p>
+        </li>
+        
+        </div>
+        
+        
     </section>
-    <section>
-        <h3>Off white section</h3>
-        <p>This will have grey background</p>
+    <section class="section">
+        <h1>Projects</h1>
+        <div class="container-center secImage ">
+            <div class allignment>
+                <p>Have a look at my recent Projects</p>
+            <a class="link primaryButton" href="/">My Projects</a>
+            </div>
+            
+            <img class="secImage image" src="images/Project.svg"/>   
+        </div>
+        
     </section>
-    <footer>
-        <div>Some small heading indide footer</div>
-            <ul>
-                <li>Socialone</li>
-                <li>Socialtwo</li>
-                <li>socialthree</li>
+    <section class="section greenishggrey ">
+        <h1>Blogs</h1>
+        <div class="container-center secImage ">
+            <img class="secImage image" src="images/blog.svg"/> 
+            <div class allignment>
+                <p>Have a look at my recent Blogs </p>
+            <a class="link primaryButton mg" href="Blogs.html">Technical Blogs</a>
+            <div class="paT">
+                <a class="link secondaryButton mg" href="Blogs.html">Non-Technical Blogs</a>
+            </div>
+            
+            </div>
+            </div>
+              
+        </div>
+    </section> 
+    <footer class="navigation nav-allign-footer">
+        <div>let's connect</div>
+            <ul class="list ">
+                <li class="list-inline">Twitter</li>
+                <li class="list-inline">github</li>
+                <li class="list-inline">Instagram</li>
             </ul>
         
     </footer>
-</div>
 </body>
 </html>

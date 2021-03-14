@@ -1,31 +1,38 @@
-body{
-    color: rgb(51, 73, 73);
-    font-size: larger;
-}
-        body{
-            color: #0a4f64
-        }
-h2{
-    color:#f9faf9;
-}
-div{
-    background-color: #80d0e9;
-    background-image: linear-gradient();
-}
-header{
+
+/* :root{
+    --Primary-color : #596e5c;
+    --Primary-home : #b2bdb4;
+    --greenish-grey : #e0dfdf;
+    --offwhite : #f0f0f0;
     
+    
+} */
+.body{
+    color: red;
 }
+h1{
+    color: teal;
+}
+/* .h2{
+    color:#f9faf9;
+} */
 
 
 
-header{
+/* #6E8A7B */
+
+.hero{
     /* Banner is displayed at the bottom */
+    padding-left: 1rem;
+    padding-top: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
     bottom: 50;
     left: 50;
     position: static;
     width: 50;
     right: 50;
-
+     background-color: #e0dfdf; 
     /* Center the content */
     align-items: center;
     display: flex;
@@ -36,7 +43,7 @@ header{
         /* Take available width */
         flex: 1;
     /* "> */
-        ...
+        /* ... */
     /* </div> */
 
     /* <!-- Close button --> */
