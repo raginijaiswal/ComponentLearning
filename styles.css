@@ -25,7 +25,9 @@ body{
 }
 .container-center{
     max-width: 800px;
+    display: block;
     margin: auto;
+    text-align: center;
 }
 hr{
     margin: 1.1rem 0rem;
@@ -125,6 +127,8 @@ hr{
      padding-right: 2rem; 
     /* padding-top: 1rem; */
     display: flex;
+    justify-content: center;
+    align-items: center
 }
 .image {
     max-width: 100%;
@@ -136,7 +140,7 @@ hr{
 
 /* section */
 .section{
-    padding: 2rem;
+    padding: 2rem 0rem;
 }
 .section h1{
     text-align: center;
