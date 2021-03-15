@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Rubik:wght@400;600&family=Source+Sans+Pro:wght@400;700&display=swap');
+
 :root{
     --Primary-color : #6E8A7B;
     --Primary-text :#506954;
@@ -8,6 +10,9 @@
     
 }
 body{
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     background-color: var(--offwhite);
     color: var(--Primary-text);
     /* font-family: "Montserrat", sans-serif; */
