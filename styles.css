@@ -108,7 +108,7 @@ hr{
 }
 .hero{
     padding: 2rem;
-    padding-top: 5rem;
+    padding-top: 5rem; 
 }
 
 .hero .hero-img {
@@ -139,13 +139,13 @@ hr{
     max-width: 100%;
     width: 200px;
     display: block;
-    margin-right: 2px;
+    /* margin-right: 2px; */
     display: flex;
 }
 
 /* section */
 .section{
-    padding: 2rem 0rem;
+    padding: 1rem 0rem;
 }
 .section h1{
     text-align: center;
